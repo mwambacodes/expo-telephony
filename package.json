@@ -1,35 +1,47 @@
 {
-    "name": "expo-telephony",
-    "version": "1.0.0",
-    "description": "A robust Expo module for Android Telephony (SMS, Calls, USSD) and background services.",
-    "main": "index.ts",
-    "types": "index.ts",
-    "files": [
-        "android",
-        "ios",
-        "src",
-        "index.ts",
-        "expo-module.config.json"
-    ],
-    "keywords": [
-        "react-native",
-        "expo",
-        "telephony",
-        "sms",
-        "ussd",
-        "calls"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/uza-systems/expo-telephony.git"
-    },
-    "author": "UzaSystems",
-    "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
-    "peerDependencies": {
-        "expo": "*",
-        "react-native": "*"
-    }
+  "name": "@blutrixx/expo-telephony",
+  "version": "0.0.0",
+  "description": "A robust Expo module for Android Telephony (SMS, Calls, USSD) and background services.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "android",
+    "ios",
+    "src",
+    "index.ts",
+    "README.md",
+    "CHANGELOG.md",
+    "expo-module.config.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "semantic-release",
+    "release:dry-run": "semantic-release --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uza-systems/expo-telephony.git"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "telephony",
+    "sms",
+    "ussd",
+    "calls"
+  ],
+  "author": "blutrixx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uza-systems/expo-telephony/issues"
+  },
+  "homepage": "https://github.com/uza-systems/expo-telephony#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^25.0.2"
+  }
 }
