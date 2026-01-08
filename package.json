@@ -1,6 +1,6 @@
 {
   "name": "@blutrixx/expo-telephony",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A robust Expo module for Android Telephony (SMS, Calls, USSD) and background services.",
   "main": "index.ts",
   "types": "index.ts",
