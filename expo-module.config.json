@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "TelephonyModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.telephony.TelephonyModule"
+    ]
+  }
+}

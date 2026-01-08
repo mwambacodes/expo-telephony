@@ -1,0 +1,35 @@
+{
+    "name": "expo-telephony",
+    "version": "1.0.0",
+    "description": "A robust Expo module for Android Telephony (SMS, Calls, USSD) and background services.",
+    "main": "index.ts",
+    "types": "index.ts",
+    "files": [
+        "android",
+        "ios",
+        "src",
+        "index.ts",
+        "expo-module.config.json"
+    ],
+    "keywords": [
+        "react-native",
+        "expo",
+        "telephony",
+        "sms",
+        "ussd",
+        "calls"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/uza-systems/expo-telephony.git"
+    },
+    "author": "UzaSystems",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "expo": "*",
+        "react-native": "*"
+    }
+}
