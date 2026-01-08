@@ -1,6 +1,6 @@
 {
   "name": "@mwambacodes/expo-telephony",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A robust Expo module for Android Telephony (SMS, Calls, USSD) and background services.",
   "main": "index.ts",
   "types": "index.ts",
