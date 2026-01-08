@@ -1,5 +1,5 @@
 {
-  "name": "@blutrixx/expo-telephony",
+  "name": "@mwambacodes/expo-telephony",
   "version": "0.0.1",
   "description": "A robust Expo module for Android Telephony (SMS, Calls, USSD) and background services.",
   "main": "index.ts",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uza-systems/expo-telephony.git"
+    "url": "git+https://github.com/mwambacodes/expo-telephony.git"
   },
   "keywords": [
     "react-native",
@@ -35,9 +35,9 @@
   "author": "blutrixx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uza-systems/expo-telephony/issues"
+    "url": "https://github.com/mwambacodes/expo-telephony/issues"
   },
-  "homepage": "https://github.com/uza-systems/expo-telephony#readme",
+  "homepage": "https://github.com/mwambacodes/expo-telephony#readme",
   "publishConfig": {
     "access": "public"
   },
